@@ -1,0 +1,16 @@
+{
+  "version": "16",
+  "label": "PostgreSQL 16",
+  "documentation_summary": [
+    "Generate standard PostgreSQL SQL compatible with version 16.",
+    "Prefer stable and portable PostgreSQL syntax.",
+    "Do not invent unsupported functions, operators, or clauses.",
+    "Use only schema elements explicitly provided by the system."
+  ],
+  "prompt_rules": [
+    "Target PostgreSQL 16 syntax only.",
+    "Do not assume version-specific features unless verified.",
+    "If the schema is insufficient, return: SELECT 'Unable to generate query';"
+  ],
+  "blocked_patterns": []
+}
