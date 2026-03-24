@@ -48,12 +48,3 @@ This project builds a **version-aware NL-to-SQL system** that:
 2. Generates SQL using AI
 3. Validates correctness
 4. Ensures compatibility with PostgreSQL versions
-
----
-
-## 🧠 System Architecture
-
-> Replace this image after generation
-
-```md
-![Architecture](images/architecture.png)
